@@ -89,6 +89,12 @@ ul > li > a {
   margin-top: 2px;
 }
 
+.search-mini-pfp-container {
+  align-items: center;
+  display: flex;
+  /* justify-content: center; */
+}
+
 .search-bar {
   align-items: center;
   display: flex;
@@ -111,4 +117,28 @@ ul > li > a {
   flex: 1 1 0;
   height: 38px;
   width: 800px;
+}
+
+.mini-user-info {
+  align-items: center;
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.bell {
+  flex: 1 1 1;
+  width: 32px;
+}
+
+
+.mini-pfp > img {
+  border-radius: 64px;
+  height: 64px;
+  width: 64px;
+}
+
+.mini-user-info:last-child {
+  font-size: 1.5rem;
 }
