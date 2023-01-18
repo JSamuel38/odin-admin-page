@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 :root {
   --blue-color: #22aaff;
-  --grey-color: #efeeef;
+  --grey-color: #eaecf0;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 0;
 }
 
@@ -87,4 +87,28 @@ ul > li > img {
 ul > li > a {
   flex: 1;
   margin-top: 2px;
+}
+
+.search-bar {
+  align-items: center;
+  display: flex;
+  gap: 16px;
+  justify-content: left;
+  margin-top: 32px;
+  padding-left: 32px;
+  width: 75%;
+}
+
+.search-bar > div:first-of-type {
+  flex: 1 1 1;
+  width: 32px;
+}
+
+.search-bar > div > input {
+  background-color: var(--grey-color);
+  border-radius: 20px;
+  border-style: none;
+  flex: 1 1 0;
+  height: 38px;
+  width: 800px;
 }
