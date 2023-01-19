@@ -141,4 +141,28 @@ ul > li > a {
 
 .mini-user-info:last-child {
   font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.user-info {
+  display: flex;
+  gap: 24px;
+  padding-left: 5%;
+}
+
+.user-info > img {
+  border-radius: 96px;
+  height: 96px;
+  width: 96px;
+}
+
+.user-info {
+  font-size: 1.25rem;
+  font-weight: 800;
+}
+
+.name {
+  font-size: 1.75rem;
+  font-weight: 800;
+  margin-top: -16px;
 }
