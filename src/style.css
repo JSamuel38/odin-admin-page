@@ -124,7 +124,9 @@ ul > li > a {
   display: flex;
   gap: 32px;
   justify-content: center;
-  margin-top: 32px;
+  position: relative;
+  right: 1.5%;
+  top: 32px;
 }
 
 .bell {
@@ -148,6 +150,7 @@ ul > li > a {
   display: flex;
   gap: 24px;
   padding-left: 5%;
+  padding-top: 24px;
 }
 
 .user-info > img {
@@ -165,4 +168,21 @@ ul > li > a {
   font-size: 1.75rem;
   font-weight: 800;
   margin-top: -16px;
+}
+
+.buttons {
+  bottom: 28%;
+  display: flex;
+  gap: 32px;
+  position: relative;
+  left: 65%;
+}
+
+.buttons > button {
+  background-color: var(--blue-color);
+  border-radius: 96px;
+  border-style: none;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 12px 32px;
 }
