@@ -288,5 +288,7 @@ aside > div > div {
 }
 
 .trending > div > div > div > p {
+  color: rgba(153, 153, 153, 0.6);
+  font-size: 1.25rem;
   margin-top: 4px;
 }
