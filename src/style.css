@@ -187,6 +187,11 @@ ul > li > a {
   padding: 12px 32px;
 }
 
+main > h2 {
+  font-size: 2rem;
+  margin: 32px;
+}
+
 .grid-container {
   display: grid;
   gap: 32px;
@@ -197,6 +202,7 @@ ul > li > a {
 .grid-container > article {
   background-color: #fff;
   border-radius: 16px;
+  box-shadow: #ccc 0px 5px 10px;
   height: 275px;
 }
 
@@ -207,6 +213,46 @@ ul > li > a {
 
 .grid-container > article > div > p {
   height: 150px;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+}
+
+aside {
+  display: grid;
+  grid-template: 1fr 1fr / 1fr;
+}
+
+aside > div > h3 {
+  font-size: 1.5rem;
+  margin: 16px;
+  padding-left: 16px;
+}
+
+aside > div > div {
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: #ccc 0px 5px 10px;
+  height: 80%;
+  margin: 16px;
+}
+
+.announcements > div {
+  padding: 8px;
+  margin: 8px;
+}
+
+.announcements > div > * {
+  margin: 16px;
+}
+
+.announcements > div > h4 {
+  font-size: 1rem;
+}
+
+.announcements > div > p {
+  color: rgba(153, 153, 153, 0.6);
+  font-size: 0.85rem;
+  margin-top: -10px;
   text-overflow: ellipsis;
   word-wrap: break-word;
 }
