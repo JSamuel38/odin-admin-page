@@ -134,7 +134,6 @@ ul > li > a {
   width: 32px;
 }
 
-
 .mini-pfp > img {
   border-radius: 64px;
   height: 64px;
@@ -176,6 +175,7 @@ ul > li > a {
   gap: 32px;
   position: relative;
   left: 65%;
+  width: 0px;
 }
 
 .buttons > button {
@@ -185,4 +185,28 @@ ul > li > a {
   color: #fff;
   font-size: 1.5rem;
   padding: 12px 32px;
+}
+
+.grid-container {
+  display: grid;
+  gap: 32px;
+  grid-template: 4fr / 1fr 1fr;
+  margin: 16px;
+}
+
+.grid-container > article {
+  background-color: #fff;
+  border-radius: 16px;
+  height: 275px;
+}
+
+.grid-container > article > div {
+  margin: 16px;
+  overflow: auto;
+}
+
+.grid-container > article > div > p {
+  height: 150px;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
 }
